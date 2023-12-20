@@ -1,6 +1,6 @@
 export async function getAllEvents() {
   const response = await fetch(
-    {PuutYourLink}
+    {PutYourLink}
   );
   const data = await response.json();
 
